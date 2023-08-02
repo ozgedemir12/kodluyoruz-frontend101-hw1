@@ -10,4 +10,8 @@ Patika.dev kapsamında frontend patikası için ödev1
 ### Ekran Görüntüsü HW3
 <img src="HW3/hw3.png" width="auto"><br/></hr>
 
+### Ekran Görüntüsü HW4
+<img src="HW4/hw4.png" width="auto"><br/></hr>
+
+
 
