@@ -1,0 +1,236 @@
+.header {
+    list-style-type: none;
+    margin: 10px;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+  
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 100px;
+  }
+  
+  .search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 480px;
+  }
+  
+  .search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  
+  .search {
+    flex: 1;
+    /*display: flex;*/
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+ .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    margin-top: -63px;
+    margin-left: -35px;
+  }
+  
+  .input {
+    color: rgba(0, 0, 0, 0.87);
+    flex: 100%;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 30px !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+    outline: none;
+  }
+
+  .search-voice {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -28px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+  .shadow:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Gölge değerlerini ihtiyaçlarınıza göre ayarlayabilirsiniz */
+  }
+  
+  .button {
+    display: inline-block;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  .button:hover {
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #sign-button {
+      margin: 8px 6px;
+      padding: 3 16px;
+      line-height: 27px;
+      min-width: 54px;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      color: white ;
+      background:#33A2FF;
+      border: 1px solid #4285f4;
+      font-weight: bold;
+      outline: none;
+      background: #4285f4;
+      background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    }
+  
+
+  .button-loc {
+    max-width: 100%;
+    max-height: 100%;  
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .text{
+    font-family: arial;
+    color:#5F6368 ;
+    font-size: 14px;
+    margin: 11px 4px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+
+  .panel {
+    display: flex;
+  }
+
+  .loc-1 {
+    position: relative;
+    height: 100vh; /* İstenilen yüksekliği ayarlayabilirsiniz */
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .loc-2 {
+    position: relative;
+    height: 100vh; /* İstenilen yüksekliği ayarlayabilirsiniz */
+    position: absolute;
+    top: 0;
+    left: -4em;
+  }
+
+  .loc-3 {
+    position: relative;
+    top: 70px;
+    left: 5px;
+  }
+
+  .rounded-image {
+    border-radius: 50%;
+    margin-top: 3px;
+
+  }
+
+  #test-1 {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 480px;
+    height: 5px; 
+  }
